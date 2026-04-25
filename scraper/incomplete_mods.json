@@ -1,0 +1,381 @@
+{
+  "description": "Mods with zero skills - need re-scraping when data is available",
+  "count": 78,
+  "modIds": [
+    "2043092117",
+    "2502465345",
+    "2565165380",
+    "2572649246",
+    "2608626994",
+    "2743722561",
+    "2812929748",
+    "2817045273",
+    "2863068028",
+    "2863465026",
+    "2868111900",
+    "2879322922",
+    "2951453412",
+    "3002789745",
+    "3037175848",
+    "3088253088",
+    "3106860450",
+    "3156118387",
+    "3166564317",
+    "3170796947",
+    "3237346773",
+    "3252136347",
+    "3265771115",
+    "3268454059",
+    "3268455423",
+    "3309026393",
+    "3327868060",
+    "3354876341",
+    "3355544064",
+    "3372687509",
+    "3382399081",
+    "3397134362",
+    "3414107333",
+    "3415611143",
+    "3419308929",
+    "3424745688",
+    "3425790723",
+    "3432168693",
+    "3439623342",
+    "3460839981",
+    "3482922464",
+    "3491486013",
+    "3493216030",
+    "3527833173",
+    "3539954403",
+    "3550713033",
+    "3550738728",
+    "3551160477",
+    "3560981532",
+    "3573206685",
+    "3600230865",
+    "3621826464",
+    "3622816274",
+    "3655423209",
+    "3659966915",
+    "3659969172",
+    "3659971553",
+    "3659971725",
+    "3661454250",
+    "3670010994",
+    "3689141481"
+  ],
+  "heroes": [
+    {
+      "name": "Abigail Williams",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Abomination (Rework)",
+      "modId": "3037175848"
+    },
+    {
+      "name": "Ailuoli",
+      "modId": "3659971553"
+    },
+    {
+      "name": "Airou Def",
+      "modId": "3354876341"
+    },
+    {
+      "name": "Airou Heal",
+      "modId": "3354876341"
+    },
+    {
+      "name": "Airou Tank",
+      "modId": "3354876341"
+    },
+    {
+      "name": "Airoucat",
+      "modId": "3354876341"
+    },
+    {
+      "name": "Akmudrock",
+      "modId": "3551160477"
+    },
+    {
+      "name": "alter",
+      "modId": "2565165380"
+    },
+    {
+      "name": "Arbalest (Rework)",
+      "modId": "3106860450"
+    },
+    {
+      "name": "Archetto",
+      "modId": "3309026393"
+    },
+    {
+      "name": "Arona",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Butcher Bird",
+      "modId": "3573206685"
+    },
+    {
+      "name": "Cataphract",
+      "modId": "2863465026"
+    },
+    {
+      "name": "Collector Battle",
+      "modId": "2879322922"
+    },
+    {
+      "name": "Dante",
+      "modId": "3419308929"
+    },
+    {
+      "name": "Delta",
+      "modId": "3670010994"
+    },
+    {
+      "name": "Dollmaker",
+      "modId": "3622816274"
+    },
+    {
+      "name": "Doombringer",
+      "modId": "3659971725"
+    },
+    {
+      "name": "Entrenched",
+      "modId": "3439623342"
+    },
+    {
+      "name": "Eosoceandragonmaid",
+      "modId": "3415611143"
+    },
+    {
+      "name": "Eureshyall",
+      "modId": "3432168693"
+    },
+    {
+      "name": "Exotic Princess",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Flan",
+      "modId": "2817045273"
+    },
+    {
+      "name": "Gabriel",
+      "modId": "3659969172"
+    },
+    {
+      "name": "Ghost Shark",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Guqin",
+      "modId": "2743722561"
+    },
+    {
+      "name": "Heir",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Hellion (Rework)",
+      "modId": "3156118387"
+    },
+    {
+      "name": "Highwayman (Rework)",
+      "modId": "3002789745"
+    },
+    {
+      "name": "Houndmaster (WC)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Ironclad Warrior",
+      "modId": "3539954403"
+    },
+    {
+      "name": "Jester (WC)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Jester (WC2)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Kaltsit",
+      "modId": "2951453412"
+    },
+    {
+      "name": "Kuuga",
+      "modId": "3621826464"
+    },
+    {
+      "name": "Man-at-Arms (WC)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Man-at-Arms (WC) (3397134362)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Mordekaiser",
+      "modId": "3659966915"
+    },
+    {
+      "name": "MP40",
+      "modId": "2868111900"
+    },
+    {
+      "name": "Musketeer (Rework)",
+      "modId": "3689141481"
+    },
+    {
+      "name": "Netzach",
+      "modId": "3482922464"
+    },
+    {
+      "name": "Nielyjs",
+      "modId": "3265771115"
+    },
+    {
+      "name": "Nothin",
+      "modId": "2043092117"
+    },
+    {
+      "name": "Offering",
+      "modId": "3268455423"
+    },
+    {
+      "name": "Orca",
+      "modId": "3424745688"
+    },
+    {
+      "name": "PameliPamela",
+      "modId": "3252136347"
+    },
+    {
+      "name": "Patriot",
+      "modId": "2572649246"
+    },
+    {
+      "name": "Plague Doctor (WC)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Plowmare",
+      "modId": "3372687509"
+    },
+    {
+      "name": "Remilia Scarlet",
+      "modId": "3166564317"
+    },
+    {
+      "name": "Remilia Scarlet (3170796947)",
+      "modId": "3170796947"
+    },
+    {
+      "name": "Revknight",
+      "modId": "3237346773"
+    },
+    {
+      "name": "Sallos Rebecca",
+      "modId": "3600230865"
+    },
+    {
+      "name": "Scavenger",
+      "modId": "2812929748"
+    },
+    {
+      "name": "Sherry",
+      "modId": "3655423209"
+    },
+    {
+      "name": "Shieldbreaker (Rework)",
+      "modId": "2502465345"
+    },
+    {
+      "name": "Shieldbreaker (WC)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Sight",
+      "modId": "3382399081"
+    },
+    {
+      "name": "Skout",
+      "modId": "3355544064"
+    },
+    {
+      "name": "Snor Kikyou",
+      "modId": "3460839981"
+    },
+    {
+      "name": "Texas (3527833173)",
+      "modId": "3527833173"
+    },
+    {
+      "name": "Tifa",
+      "modId": "3268454059"
+    },
+    {
+      "name": "Tomb Keeper",
+      "modId": "2608626994"
+    },
+    {
+      "name": "Tpn Arona",
+      "modId": "3327868060"
+    },
+    {
+      "name": "Vestal (Rework)",
+      "modId": "3106860450"
+    },
+    {
+      "name": "Vestal (WC)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Vestal (WC2)",
+      "modId": "3397134362"
+    },
+    {
+      "name": "Vigilante",
+      "modId": "2863068028"
+    },
+    {
+      "name": "Wc 1 Man At Arms",
+      "modId": "3493216030"
+    },
+    {
+      "name": "Wc 6",
+      "modId": "3414107333"
+    },
+    {
+      "name": "Wc Grave Robber",
+      "modId": "3550713033"
+    },
+    {
+      "name": "Wc Hellion",
+      "modId": "3425790723"
+    },
+    {
+      "name": "Wc Xingyun",
+      "modId": "3088253088"
+    },
+    {
+      "name": "Wc Yaodao",
+      "modId": "3550738728"
+    },
+    {
+      "name": "Wplily",
+      "modId": "3491486013"
+    },
+    {
+      "name": "Yoto Hime",
+      "modId": "3661454250"
+    },
+    {
+      "name": "Zotlan Guru",
+      "modId": "3560981532"
+    }
+  ]
+}
