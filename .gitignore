@@ -1,0 +1,4 @@
+.claude/
+CLAUDE.md
+scraper/config.py
+scraper/__pycache__/
