@@ -322,11 +322,15 @@ class DarkestDungeonModScraper:
             Texto limpio
         """
         # Eliminar códigos de color: {colour_start|...} y {colour_end}
-        text = re.sub(r'\{colour_start\|[^}]+\}', '', text)
-        text = re.sub(r'\{colour_end\}', '', text)
+        text = re.sub(r'\{colour_start\|[^}]+\}', '', text, flags=re.I)
+        text = re.sub(r'\{colour_end\}', '', text, flags=re.I)
         
         # Eliminar símbolos especiales usados para iconos
         text = re.sub(r'[¤]+', '', text)
+
+        # Caracteres de ancho cero: NO son whitespace para str.split(), asi que
+        # el colapso de espacios de abajo los dejaba intactos.
+        text = re.sub('[​-‏  ﻿­]', '', text)
         
         # Limpiar saltos de línea y espacios múltiples
         text = text.replace('\n', ' ')
@@ -530,7 +534,7 @@ class DarkestDungeonModScraper:
                         # Patrón: camping_skill_name_<skill_id>
                         if 'camping_skill_name_' in entry_id.lower() and text:
                             skill_id = entry_id.lower().replace('camping_skill_name_', '')
-                            skill_id_to_name[skill_id] = text.title()
+                            skill_id_to_name[skill_id] = self.clean_skill_name(text).title()
         
         # Leer el archivo JSON de camping skills para saber qué skills tiene este héroe
         camping_json_path = self.mod_path / 'raid' / 'camping' / f'{hero_class.lower()}.camping_skills.json'
@@ -547,7 +551,7 @@ class DarkestDungeonModScraper:
                     # 2. Nombre vanilla predefinido (para skills vanilla)
                     # 3. ID formateado como fallback
                     if skill_id in skill_id_to_name:
-                        skill_name = skill_id_to_name[skill_id]
+                        skill_name = self.clean_skill_name(skill_id_to_name[skill_id])
                     elif skill_id in VANILLA_SKILL_NAMES:
                         skill_name = VANILLA_SKILL_NAMES[skill_id]
                     else:
@@ -564,6 +568,7 @@ class DarkestDungeonModScraper:
         else:
             # Fallback: usar solo localización si no hay JSON
             for skill_id, skill_name in skill_id_to_name.items():
+                skill_name = self.clean_skill_name(skill_name)
                 if skill_id in VANILLA_CAMP_SKILL_IDS:
                     vanilla_skills.append(skill_name)
                 else:
@@ -606,7 +611,8 @@ class DarkestDungeonModScraper:
                         text and 
                         text.strip()):
                         # Evitar duplicados
-                        if text not in trinkets:
+                        text = self.clean_skill_name(text)
+                        if text and text not in trinkets:
                             trinkets.append(text)
                             print(f"    ✓ Trinket encontrado: {text}")
         

@@ -10182,37 +10182,6 @@
         "trinkets": 8
       }
     },
-    "3144299757": {
-      "scraped_at": "2026-04-25T18:27:37",
-      "status": "success",
-      "heroes": [
-        "Mordekaiser"
-      ],
-      "fingerprint": {
-        "heroes": {
-          "mtime": 1777132932.3968203,
-          "files": 96
-        },
-        "localization": {
-          "mtime": 1777132932.4192703,
-          "files": 4
-        },
-        "raid": {
-          "mtime": 1777132932.4308448,
-          "files": 4
-        },
-        "panels": {
-          "mtime": 1777132932.4257236,
-          "files": 20
-        }
-      },
-      "images_written": {
-        "heroes": 0,
-        "skills": 7,
-        "camp_skills": 1,
-        "trinkets": 13
-      }
-    },
     "3144426116": {
       "scraped_at": "2026-04-25T18:27:37",
       "status": "success",
@@ -15411,37 +15380,6 @@
         "skills": 7,
         "camp_skills": 7,
         "trinkets": 27
-      }
-    },
-    "3463971564": {
-      "scraped_at": "2026-04-25T18:29:17",
-      "status": "success",
-      "heroes": [
-        "Kuuga"
-      ],
-      "fingerprint": {
-        "heroes": {
-          "mtime": 1777133916.2724006,
-          "files": 190
-        },
-        "localization": {
-          "mtime": 1777133916.3018801,
-          "files": 4
-        },
-        "raid": {
-          "mtime": 1777133916.3044934,
-          "files": 8
-        },
-        "panels": {
-          "mtime": 1777133916.3026392,
-          "files": 16
-        }
-      },
-      "images_written": {
-        "heroes": 0,
-        "skills": 7,
-        "camp_skills": 5,
-        "trinkets": 4
       }
     },
     "3465294831": {
@@ -20873,7 +20811,69 @@
         "camp_skills": 4,
         "trinkets": 4
       }
+    },
+    "3144299757": {
+      "scraped_at": "2026-09-04T01:15:46",
+      "status": "success",
+      "heroes": [
+        "Mordekaiser"
+      ],
+      "fingerprint": {
+        "heroes": {
+          "mtime": 1788473516.688157,
+          "files": 96
+        },
+        "localization": {
+          "mtime": 1788473516.7131894,
+          "files": 4
+        },
+        "raid": {
+          "mtime": 1788473516.72606,
+          "files": 4
+        },
+        "panels": {
+          "mtime": 1788473516.7197812,
+          "files": 20
+        }
+      },
+      "images_written": {
+        "heroes": 0,
+        "skills": 7,
+        "camp_skills": 1,
+        "trinkets": 13
+      }
+    },
+    "3463971564": {
+      "scraped_at": "2026-09-04T01:15:46",
+      "status": "success",
+      "heroes": [
+        "Kuuga"
+      ],
+      "fingerprint": {
+        "heroes": {
+          "mtime": 1788473516.4711192,
+          "files": 190
+        },
+        "localization": {
+          "mtime": 1788473516.5306919,
+          "files": 4
+        },
+        "raid": {
+          "mtime": 1788473516.5377762,
+          "files": 8
+        },
+        "panels": {
+          "mtime": 1788473516.5317953,
+          "files": 16
+        }
+      },
+      "images_written": {
+        "heroes": 0,
+        "skills": 7,
+        "camp_skills": 10,
+        "trinkets": 4
+      }
     }
   },
-  "last_run": "2026-04-25T18:30:19"
+  "last_run": "2026-09-04T01:15:46"
 }
