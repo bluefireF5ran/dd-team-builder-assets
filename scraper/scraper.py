@@ -245,7 +245,7 @@ def sort_modded_heroes_js():
     # Find the closing brace by counting braces
     brace_count = 1
     obj_end = obj_start
-    in_string = False
+    quote = None
     escape_next = False
 
     for i, char in enumerate(content[obj_start:]):
@@ -255,11 +255,12 @@ def sort_modded_heroes_js():
         if char == '\\':
             escape_next = True
             continue
-        if char == "'" and not in_string:
-            in_string = True
-        elif char == "'" and in_string:
-            in_string = False
-        elif not in_string:
+        if quote:
+            if char == quote:
+                quote = None
+        elif char in "'\"":
+            quote = char
+        else:
             if char == '{':
                 brace_count += 1
             elif char == '}':
@@ -286,7 +287,7 @@ def sort_modded_heroes_js():
         start_pos = match.start()
 
         brace_count = 0
-        in_string = False
+        quote = None
         escape_next = False
         end_pos = start_pos
 
@@ -298,11 +299,12 @@ def sort_modded_heroes_js():
             if char == '\\':
                 escape_next = True
                 continue
-            if char == "'" and not in_string:
-                in_string = True
-            elif char == "'" and in_string:
-                in_string = False
-            elif not in_string:
+            if quote:
+                if char == quote:
+                    quote = None
+            elif char in ("'", chr(34)):
+                quote = char
+            else:
                 if char == '{':
                     brace_count += 1
                 elif char == '}':
